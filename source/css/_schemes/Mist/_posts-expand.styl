@@ -27,16 +27,20 @@
     text-align: center;
   }
 
+  .post-body img {
+    margin-left: 0;
+  }
+
   .post-tags {
     text-align: left;
 
     a {
-      background: var(--content-bg-color);
+      background: $whitesmoke;
       border-bottom: none;
       padding: 1px 5px;
 
       &:hover {
-        background: var(--menu-item-bg-color);
+        background: $grey-light;
       }
     }
   }
@@ -51,6 +55,7 @@
   text-align: left;
 
   .btn {
+    // color: $grey-dim;
     background: none;
     border: 0;
     border-bottom: 2px solid var(--btn-default-border-color);
